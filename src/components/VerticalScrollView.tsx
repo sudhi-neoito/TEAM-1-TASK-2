@@ -4,7 +4,7 @@ import TaskCard from "./TaskCard";
 
 const VerticalScrollVew: React.FC = () => {
   return (
-    <div className="view-padding mt-[15.1px] flex flex-col fixed  h-[510px] hide-scroll  overflow-y-auto  w-full ">
+    <div className="view-padding mt-1 flex flex-col fixed  h-[497px] hide-scroll  overflow-y-auto  w-full ">
       <div className="z-50 font-poppins text-lg w-[337.13px] fixed h-[55.92px] bg-normal-gradient">
         <label className="font-normal pr-1">In</label>
         <label className="font-semibold">Progress</label>
