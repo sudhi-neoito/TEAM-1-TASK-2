@@ -18,7 +18,7 @@ const TaskCard: React.FC<{ data: Task }> = ({ data }) => {
         </div>
       </div>
       <div className="font-normal leading-5 text-[14px] text-[#797C80]">{data.description}</div>
-      <div className="flex space-x-1 ">
+      <div className="flex space-x-[7px] justify-start items-center  ">
         <div className="flex -space-x-2  flex-row">
           {data?.User?.map((user, index) => (
             <div
