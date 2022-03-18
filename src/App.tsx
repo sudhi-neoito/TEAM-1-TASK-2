@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import HorizotalScrollView from "./components/HorizotalScrollView";
+import { Layout } from "./components/Layout";
+import VerticalScrollVew from "./components/VerticalScrollView";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <div className=" w-full h-screen flex justify-center items-center bg-[#0D0D0D]">
+    <Layout>
+      <Header />
+      <HorizotalScrollView />
+      <VerticalScrollVew />
+    </Layout>
+  </div>
+);
 
 export default App;
